@@ -12,8 +12,8 @@
 
 
 			<%@ include file="Header.jsp"%>
-			
-			방가루
+			이것은 김예원의 포트폴리오입니다.
+		
 			<%@ include file="Footer.jsp"%>
 		</div>
 	</div>
