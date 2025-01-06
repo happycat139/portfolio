@@ -11,6 +11,11 @@ public class MainController {
 	public String MainPage() {
 		return "main";
 	}
+	
+	@GetMapping("/1")
+	public String TESTPage() {
+		return "test";
+	}
 
 	
 }
