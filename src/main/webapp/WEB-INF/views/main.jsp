@@ -116,7 +116,7 @@ nav a:visited, nav a:focus, nav a:active {
 	display: flex;
 	align-items: center;
 	margin-bottom: 40px;
-	padding:20px 50px;
+	padding:80px 50px;
 }
 
 .profile img {
@@ -144,11 +144,6 @@ nav a:visited, nav a:focus, nav a:active {
 	margin: 0;
 }
 
-section {
-	margin-bottom: 40px;
-	padding-left: 50px;
-	padding-right: 50px;
-}
 
 h2 {
 	font-size: 2em;
@@ -195,9 +190,11 @@ ul li {
 }
 
 section {
-	margin-bottom: 40px;
 	scroll-margin-top: 60px; /* 헤더 높이만큼 간격 추가 */
-	padding: 50px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 #skills {
@@ -207,6 +204,11 @@ section {
 	flex-direction: column;
 	background: #D1D0CB;
 }
+
+#projects {
+	background: #f5f5f4;
+}
+
 footer {
 	background: #D1D0CB;
 	color: white;
@@ -294,14 +296,7 @@ footer {
 				</div>
 			</section>
 
-			<section id="dev-log">
-				<h2>📘 DEV's Log</h2>
-				<a href="https://velog.io/@happycat_139/posts" target="_blank">
-					<img
-					src="https://img.shields.io/badge/velog-20C997?style=for-the-badge&logo=velog&logoColor=white"
-					alt="velog">
-				</a>
-			</section>
+			
 
 			<section id="projects">
 				<h2>🖥 프로젝트</h2>
@@ -345,11 +340,20 @@ footer {
 					<li>SMHRD 2024 K-Digital Training DCX 과정 종합 성적 1위 (2024.12.20)</li>
 				</ul>
 			</section>
+			
+			<section id="dev-log">
+				<h2>📘 DEV's Log</h2><br>
+				<a href="https://velog.io/@happycat_139/posts" target="_blank">
+					<img
+					src="https://img.shields.io/badge/velog-20C997?style=for-the-badge&logo=velog&logoColor=white"
+					alt="velog">
+				</a>
+			</section>
 
 
 
 			<section id="contact">
-				<h2>📱 연락처</h2>
+				<h2>📱 연락처</h2><br>
 				<a href="mailto:m63477802@gmail.com"> <img
 					src="https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
 					alt="Gmail">
