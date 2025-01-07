@@ -299,7 +299,7 @@ footer {
 			
 
 			<section id="projects">
-				<h2>🖥 프로젝트</h2>
+				<h2> PROJECTS </h2>
 				<ul>
 					<li><b>ARTI 프로젝트</b>: AI 기반 아동 미술 심리 분석 및 동화 생성 서비스
 						(2024.11.27 ~ 2024.12.19)</li>
