@@ -342,7 +342,7 @@ footer {
 			</section>
 			
 			<section id="dev-log">
-				<h2>📘 DEV's Log</h2><br>
+				<h2>📘 DEV's Log</h2><br><br>
 				<a href="https://velog.io/@happycat_139/posts" target="_blank">
 					<img
 					src="https://img.shields.io/badge/velog-20C997?style=for-the-badge&logo=velog&logoColor=white"
