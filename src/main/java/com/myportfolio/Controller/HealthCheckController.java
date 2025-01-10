@@ -36,4 +36,14 @@ public class HealthCheckController {
         // ResponseEntity를 통해 응답 반환
         return ResponseEntity.ok(responseData);
     }
+    
+    @GetMapping("/env")
+    public ResponseEntity<?> getEnv(){
+    	
+    	return ResponseEntity.ok(env);
+    }
+    
+    
+    
+    
 }
