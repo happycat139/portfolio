@@ -191,7 +191,7 @@ footer {
 			href="https://github.com">GitHub</a>
 	</section>
 
-	<footer> &copy; 2025 예원의 포트폴리오 </footer>
+	<footer> &copy; 2025 예원의 포트폴리오! </footer>
 
 </body>
 </html>
