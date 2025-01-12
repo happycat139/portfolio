@@ -99,9 +99,5 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script_stop: true
           script: |
-                if sudo docker ps -a --format '{{.Names}}' | grep -q "${{env.CURRENT_UPSTREAM}}"; then
-                   sudo docker stop ${{env.CURRENT_UPSTREAM}}
-                   sudo docker rm ${{env.CURRENT_UPSTREAM}}
-                else
-                   echo "No container found for ${{env.CURRENT_UPSTREAM}}"
-                fi
+            sudo docker stop ${{env.CURRENT_UPSTREAM}}
+            sudo docker rm ${{env.CURRENT_UPSTREAM}}
