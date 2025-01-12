@@ -179,7 +179,7 @@ footer {
 	<section id="projects" class="section">
 		<h2>Projects</h2>
 		<ul>
-			<li><b>ARTI 프로젝트</b>: AI 기반 아동 미술 심리 분석 및 동화 생성 서비스</li>
+			<li><b>ARTI 프로젝트</b>:AI 기반 아동 미술 심리 분석 및 동화 생성 서비스</li>
 			<li>BTB 무역회사 웹사이트 리뉴얼 프로젝트</li>
 			<li><b>냉장고를 부탁해</b>:식재료 기반 맞춤형 레시피 추천 및 소셜미디어 서비스</li>
 		</ul>
