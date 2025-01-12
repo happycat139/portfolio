@@ -4,5 +4,4 @@
 target/
 *.log
 
-*.properties
-*.yml
+application-secret.yml
