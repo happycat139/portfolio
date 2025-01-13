@@ -92,9 +92,6 @@
         <resource>
             <directory>src/main/webapp</directory>
             <filtering>false</filtering>
-            <includes>
-                <include>**/*.jsp</include>
-            </includes>
         </resource>
     </resources>
     <plugins>
