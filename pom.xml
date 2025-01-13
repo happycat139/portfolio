@@ -64,6 +64,10 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
 		
 		 <!-- Servlet API -->
     <dependency>
@@ -83,7 +87,7 @@
 
 <build>
     <resources>
-    <resource>
+        <resource>
             <directory>src/main/resources</directory>
             <includes>
                 <include>**/*</include>
@@ -92,7 +96,10 @@
         <resource>
             <directory>src/main/webapp</directory>
             <filtering>false</filtering>
-        </resource>
+            <includes>
+                <include>**/*.jsp</include>
+            </includes>
+         </resource>
     </resources>
     <plugins>
         <plugin>
